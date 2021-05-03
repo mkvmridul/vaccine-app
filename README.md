@@ -14,17 +14,17 @@ Half of the registered volunteers will receive the vaccine, the other half will 
 
 *Below is the given 4 possible combinations for the given doses*
 
-./screenshots/qr.png
+(./screenshots/qr.png)
 
 now the given qr code will be scanned by the camera
 
 __NOTE:__ Here neither the volunteer know nor the vaccine provider know to whom what is given. Thus we are scanning the qr code.
 
-./screenshots/instascan.png
+(./screenshots/instascan.png)
 
 Above we are scanning the qr code using the instascan.js library
 
-```
+  [
 let scanner = new Instascan.Scanner({ video: document.getElementById("preview") });
       scanner.addListener("scan", function (content) {
         console.log(content);
@@ -38,13 +38,13 @@ let scanner = new Instascan.Scanner({ video: document.getElementById("preview") 
       }).catch(function (e) {
         console.error(e);
       });
-      ```
+  ]
 
 Other pages are given below
 
-./screenshots/profile.png
-./screenshots/admin.png
-./screenshots/signup.png
+(./screenshots/profile.png)
+(./screenshots/admin.png)
+(./screenshots/signup.png)
 
 -----------------------------------------------------
 
